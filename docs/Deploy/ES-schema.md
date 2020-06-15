@@ -9,6 +9,7 @@ With the philosophy that everything in Azure is a resource, that means you can d
 This article will help you to familiarize with the [Enterprise-Scale ARM template](../../../../tree/master/template/tenant.json), which consist on one and only one ARM template (one template to rule them all). We recommend to also explore the [Examples](../../../../tree/master/examples) to understand how parameter files are used to provide the resources as objects to the template.
 
 ## ARM template objectives for Enterprise-Scale
+
 Some of the key [design principles](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/design-principles) of Enterprise-Scale is to have a single control and management plane, be Azure native and aligned to the platform roadmap, and employ Azure Policy to enable policy driven governance and management. That means we rely on platform capabilities in order to compose and deploy the Enterprise-Scale architecture end-2-end.
 
 The objectives includes:
@@ -52,7 +53,7 @@ This is achieved by using logical operators and resource conditions so the ARM t
 
 Examples:
 
-- When a new management group is being declared, the ARM template will do a tenant root level deployment to create the management group into the new or existing management group hiearchy, and define parent/child relationships
+- When a new management group is being declared, the ARM template will do a tenant root level deployment to create the management group into the new or existing management group hierarchy, and define parent/child relationships
 - When a new subscription is declared into a management group, the ARM template will do a tenant level deployment to update the subscription placement into its management group.
 - When a new policyAssignment is being declared, the deployment will start at tenant root level and do a nested deployment to the targeted scope for the assignment (which can be a management group or a subscription). This sequence is also the same for roleDefinitions.
 - When a new policyDefinition and a policyAssignment is created, the deployment will first create the policyDefinition at scope, as the policyAssignment will have an implicit dependency using the reference() template function. This sequence is also the same for roleDefinitions and roleAssignments.
@@ -63,7 +64,7 @@ The illustration below shows an end-to-end deployment workflow across the Azure 
 
 ![ARM template](./media/arm-template.png)
 
-For additional infomration on how to use the Enterprise-Scale ARM template via GitHub actions and how to deploy manually, se the folowing articles:
+For additional information on how to use the Enterprise-Scale ARM template via GitHub actions and how to deploy manually, se the following articles:
 
 [Deploy Enterprise-Scale platform infrastructure](./Deploy-platform-infra.md)
 

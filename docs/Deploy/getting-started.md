@@ -1,7 +1,7 @@
 
 # Getting Started
 
-This article describes how to get started with Enterprise-Scale reference implementation by walking you through all the prerequistes to deploy a platform-native reference implementation of Enterprise-Scale.
+This article describes how to get started with Enterprise-Scale reference implementation by walking you through prerequisites to deploy a platform-native reference implementation of Enterprise-Scale.
 > Note:  Before you start, please make sure that you have read and understood the overall design objective and scope of the reference implementation.
 
 ## Target audience

@@ -1,10 +1,10 @@
 # Deploy Policy assignment
 
-This article will explain how to deploy Policy assignments for `platform` and `landing zones` in your Azure environments that has been discovery in the [previous article](discover-environment.md). The following approach will deploy Policy assigment and deploy the target state defined in the policy.
+This article will explain how to deploy Policy assignments for `platform` and `landing zones` in your Azure environments that has been discovery in the [previous article](discover-environment.md). The following approach will deploy Policy assignment and deploy the target state defined in the policy.
 
 ## Deployment artifact overview
 
-It is important, that you are familiar with the AzOps folder structure that has been created during the environment discovery and repository initialization. To describe the desired state of Platform Subcriptions and Landing Zone we apply changes only in the _managementgroupscope_.parameters.json in the .AzState folder. This is how the folder structure should look like for your environment:
+It is important, that you are familiar with the AzOps folder structure that has been created during the environment discovery and repository initialization. To describe the desired state of Platform Subscriptions and Landing Zone we apply changes only in the _managementgroupscope_.parameters.json in the .AzState folder. This is how the folder structure should look like for your environment:
 
 ```bash
     AzOps
@@ -40,7 +40,7 @@ Each Microsoft.Management-managementGroups_<_managementgroupscope_>.parameters.j
     }
 ```
 
-There are two groups of properties in this section _\*Definitions\*_ and _\*Assignments\*_.  
+There are two groups of properties in this section _\*Definitions\*_ and _\*Assignments\*_.
 
 __Definitions:__ All the definitions (`policy`, `role` and `policySet`) have been deployed if you have used the green field approach. Policy definitions have been deployed on the 'YourCompanyName' Management Group scope and with this in the 'YourCompanyName'.parameters.json file.
 >Note: In the Azure portal `policySetDefinitions` is also known as an initiative. It represents a set of Azure Policy definition.

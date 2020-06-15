@@ -2,12 +2,13 @@
 
 This section will guide you through the process of deploy an Enterprise-Scale reference implementation in your own environment.
 
-To deploy a sample Enterprise-Scale reference implementation, simply choose your favorite implementation (for example Contoso) and click on the Deploy to Azure button. You can use any of the reference implementations included within Enterprise-Scale 
+To deploy a sample Enterprise-Scale reference implementation, simply choose your favorite implementation (for example Contoso) and click on the Deploy to Azure button. You can use any of the reference implementations included within Enterprise-Scale
+
 - [WingTip](../reference/wingtip/README.md)
-- [AdventureWorks](../reference/adventureworks/README.md) 
+- [AdventureWorks](../reference/adventureworks/README.md)
 - [Contoso reference implementations](../reference/contoso/Readme.md)
 
-This will create a sample management group structure that you can use for starting point.  
+This will create a sample management group structure that you can use for starting point.
 
 ## Move Subscription under management groups
 

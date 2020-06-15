@@ -6,14 +6,14 @@ The Enterprise-Scale Committee and its members (aka Committee Members) are the p
 
 ### Current Committee Members
 
-- Uday Pandya
-- Callum Coffin
-- Kristian Nese
-- Victor Arzate
-- Johan Dahlbom
-- Lyon Till
-- Niels Buit
-- Hansjoerg Scherer
+- Uday Pandya @uday31in
+- Kristian Nese @krnese
+- Victor Arzate @victorar
+- Johan Dahlbom @daltondhcp
+- Lyon Till @ljtill
+- Niels Buit @nielsams
+- Hansjoerg Scherer @hjscherer 
+- Callum Coffin @CalCof
 
 ### Committee Member Responsibilities
 
@@ -80,7 +80,7 @@ We have opted for minimalist "one template to rule them all" approach. This will
     }],
 ```
 
-There is generic multi-resource template available [here](https://raw.githubusercontent.com/Azure/AzOps/master/template/template.json) to ensure bug fixes are incorporated with latest API Version.
+This is generic multi-resource template available [here](https://raw.githubusercontent.com/Azure/AzOps/master/template/template.json) to ensure bug fixes are incorporated with latest API Version.
 
 - Template.parameters.json
 

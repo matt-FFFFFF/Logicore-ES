@@ -37,7 +37,7 @@ Please check progress in the GitHub repo in the Actions tab and wait for it comp
 The following steps will be executed automatically to ensure that the current Azure environment is represented in your GitHub repository:
 
 * Current Management Group, Subscriptions, Policy Definitions and Policy Assignments are discovered and RESTful representation of the resources are  saved as ARM Template parameters file.
-* If changes are detected that is not represented in your `master` branch, it will create `system` branch representing your currinent configuration as ARM templates parameter file.
+* If changes are detected that is not represented in your `master` branch, it will create `system` branch representing your current configuration as ARM templates parameter file.
 * Create a Pull Request (PR) with the name `Azure Change Notification` (`system`  -> `master`)
 
 ## Verify PR and merge with `master` branch

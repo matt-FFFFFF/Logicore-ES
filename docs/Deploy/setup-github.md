@@ -19,9 +19,9 @@ This article will guide you through the process to configure GitHub in preparati
     Option 2 (App registration disabled)
 
     ```powershell
-    #Create Service Principal as the Azure AD adminstrator
+    #Create Service Principal as the Azure AD administrator
     $servicePrincipal = New-AzADServicePrincipal -Role Owner -Scope / -DisplayName AzOps -SkipAssignment
-    #Assign Owner role to tenant root scope ("/") as a User Access Adminstrator
+    #Assign Owner role to tenant root scope ("/") as a User Access Administrator
     New-AzRoleAssignment -ApplicationId $servicePrincipal.ApplicationId -RoleDefinitionName Owner -Scope /
     ```
 
@@ -61,11 +61,12 @@ This article will guide you through the process to configure GitHub in preparati
     ```bash
     ObjectId
     ```
+
 5. Add upstream repo to your local repository to get latest changes
 
 Follow these steps in order to synchronize the latest changes from the upstream repo into your local repositories.
 
-Run the following git commands only once you change your directory to your local fork to add a reference to the upstream repo
+Run the following git commands once you change your directory to your local fork to add a reference to the upstream repo
 
     ```shell
     git remote -v
@@ -73,7 +74,7 @@ Run the following git commands only once you change your directory to your local
     git remote -v
     ```
 
-Execute the following git commands only when you need to synchronize changes from upstream repo into your local fork:
+Execute the following git commands when you want to synchronize changes from upstream repo into your local fork:
 
     ```shell
     git fetch upstream
