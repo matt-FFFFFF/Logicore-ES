@@ -55,7 +55,7 @@ This article will guide you through the process to configure GitHub in preparati
     ```
 
 * Name: AZURE_ENROLLMENT_ACCOUNT_NAME [Optional]
-  
+
     This parameter is required if you are planning to create new subscription though this workflow. This secret must contain the **ObjectId** for the Azure Enrollment Account. You can obtain the id by running ```Get-AzEnrollmentAccount```
 
     ```bash

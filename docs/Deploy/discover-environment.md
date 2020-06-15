@@ -2,6 +2,7 @@
 
 This article explains how to perform a discovery of your existing Azure environment. Then, as part of the discovery process, your GitHub will reflect your current Azure environment consisting of Management Group, Subscriptions, Policy Definitions and Policy Assignments.
 
+
 ## Initialize existing environment
 
 Your repo should contain GitHub Action [/workflows/azops.yml](../../.github/workflows/azops.yml) that can pull latest configuration from Azure. Before invoking action, please ensure Actions are enabled for your repo. AzOps GitHub Action is maintained at [https://github.com/Azure/azops](https://github.com/Azure/azops).
