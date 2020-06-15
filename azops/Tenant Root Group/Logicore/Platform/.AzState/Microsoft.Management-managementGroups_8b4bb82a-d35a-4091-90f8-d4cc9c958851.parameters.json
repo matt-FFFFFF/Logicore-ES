@@ -14,7 +14,15 @@
         "ParentId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af",
         "ParentName": "d52a5cb0-5817-4f49-81c0-b1c8f72a80af",
         "ParentDisplayName": "Logicore",
-        "Children": null,
+        "Children": [
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/be3ae466-f78a-4e60-b972-d9c35a4e7b3b",
+            "Name": "LogicoreMSDNSub",
+            "DisplayName": "Platform",
+            "Children": null
+          }
+        ],
         "properties": {
           "policyDefinitions": [],
           "policySetDefinitions": [],
