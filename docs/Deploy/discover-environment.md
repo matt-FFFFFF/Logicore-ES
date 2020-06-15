@@ -11,7 +11,7 @@ In a terminal, type the following commands by replacing the placeholders (<...>)
 
 **PowerShell:**
 ```powershell
-$username = "codertocat"
+$username = "<GH UserName>"
 $password = "<PAT_TOKEN>"
 $uri = "https://api.github.com/repos/<Your GitHub ID>/<Your Repo Name>/dispatches"
 $params = @{
@@ -30,7 +30,7 @@ Invoke-RestMethod -Method "POST" @params
 
 **Bash:**
 ```bash
-curl -u "Codertocat:<PAT Token>" -H "Accept: application/vnd.github.everest-preview+json"  -H "Content-Type: application/json" https://api.github.com/repos/<Your GitHub ID>/<Your Repo Name>/dispatches --data '{"event_type": "activity-logs"}'
+curl -u "<GH UserName>:<PAT Token>" -H "Accept: application/vnd.github.everest-preview+json"  -H "Content-Type: application/json" https://api.github.com/repos/<Your GitHub ID>/<Your Repo Name>/dispatches --data '{"event_type": "activity-logs"}'
 ```
 
 Please check progress in the GitHub repo in the Actions tab and wait for it complete. At present, if your environment contains management group or subscription with duplicate display name, initialization of discovery will fail. This is precautionary check to avoid accidental misconfiguration and we highly recommend unique names for management groups and subscriptions. There is work planned to override Display Name with Name ETA 7/31.
