@@ -20,7 +20,15 @@
             "Id": "/providers/Microsoft.Management/managementGroups/8b4bb82a-d35a-4091-90f8-d4cc9c958851",
             "Name": "8b4bb82a-d35a-4091-90f8-d4cc9c958851",
             "DisplayName": "Platform",
-            "Children": null
+            "Children": [
+              {
+                "Type": "/subscriptions",
+                "Id": "/subscriptions/be3ae466-f78a-4e60-b972-d9c35a4e7b3b",
+                "Name": "be3ae466-f78a-4e60-b972-d9c35a4e7b3b",
+                "DisplayName": "LogicoreMSDNSub",
+                "Children": null
+              }
+            ]
           },
           {
             "Type": "/providers/Microsoft.Management/managementGroups",
