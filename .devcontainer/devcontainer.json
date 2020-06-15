@@ -1,0 +1,12 @@
+{
+    "name": "Enterprise-Scale devcontainer",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [8888],
+    "extensions": [
+        "azurepolicy.azurepolicyextension",
+        "ms-vscode.powershell-preview"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    }
+}
