@@ -11,15 +11,16 @@ In a terminal, type the following commands by replacing the placeholders (<...>)
 
 **PowerShell:**
 ```powershell
-$username = "<GH UserName>"
-$password = "<PAT_TOKEN>"
-$uri = "https://api.github.com/repos/<Your GitHub ID>/<Your Repo Name>/dispatches"
+$GitHubUserName = "<GH UserName>"
+$GitHubPAT = "<PAT TOKEN>"
+$GitHubRepoName = "<Repo Name>"
+$uri = "https://api.github.com/repos/$GitHubUserName/$GitHubRepoName/dispatches"
 $params = @{
     Uri = $uri
     Headers = @{
         "Accept" = "application/vnd.github.everest-preview+json"
         "Content-Type" = "application/json"
-        "Authorization" = "Basic $([Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $username,$password))))"
+        "Authorization" = "Basic $([Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $GitHubUserName,$GitHubPAT))))"
         }
     Body = @{
         "event_type" = "activity-logs"
