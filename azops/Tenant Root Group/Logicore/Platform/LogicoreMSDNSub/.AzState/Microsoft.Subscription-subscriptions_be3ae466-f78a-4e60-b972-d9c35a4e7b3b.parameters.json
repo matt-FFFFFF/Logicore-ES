@@ -12,42 +12,7 @@
         "properties": {
           "policyDefinitions": [],
           "policySetDefinitions": [],
-          "policyAssignments": [
-            {
-              "Location": "northeurope",
-              "Name": "Deploy-Log-Analytics",
-              "ResourceGroupName": null,
-              "ResourceType": "Microsoft.Authorization/policyAssignments",
-              "SubscriptionId": "feab2d15-66b4-438b-accf-51f889b30ec3",
-              "Identity": {
-                "type": "SystemAssigned"
-              },
-              "Properties": {
-                "Scope": "/subscriptions/be3ae466-f78a-4e60-b972-d9c35a4e7b3b",
-                "NotScopes": [],
-                "DisplayName": "Deploy-LogAnalytics",
-                "Description": null,
-                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Log-Analytics",
-                "Parameters": {
-                  "workspaceName": {
-                    "value": "logicore-weu-la"
-                  },
-                  "automationAccountName": {
-                    "value": "logicore-weu-aa"
-                  },
-                  "workspaceRegion": {
-                    "value": "westeurope"
-                  },
-                  "automationRegion": {
-                    "value": "westeurope"
-                  },
-                  "rgName": {
-                    "value": "logicore-weu-mgmt"
-                  }
-                }
-              }
-            }
-          ],
+          "policyAssignments": [],
           "roleDefinitions": null,
           "roleAssignments": null
         }
