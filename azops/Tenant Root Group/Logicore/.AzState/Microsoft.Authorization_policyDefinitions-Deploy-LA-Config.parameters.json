@@ -5,11 +5,8 @@
     "input": {
       "value": {
         "Name": "Deploy-LA-Config",
-        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-LA-Config",
-        "ResourceName": "Deploy-LA-Config",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
-        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-LA-Config",
         "Properties": {
           "Description": null,
           "DisplayName": "Deploy-LA-Config",
