@@ -1,0 +1,28 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/f13dcac5-df76-4efd-a8f3-a0efd5e1e5e2",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "f13dcac5-df76-4efd-a8f3-a0efd5e1e5e2",
+        "TenantId": "bb4c9e42-b982-4573-8741-cb71d8b92af4",
+        "DisplayName": "UnhappyPath",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": "/providers/Microsoft.Management/managementGroups/bb4c9e42-b982-4573-8741-cb71d8b92af4",
+        "ParentName": "bb4c9e42-b982-4573-8741-cb71d8b92af4",
+        "ParentDisplayName": "Tenant Root Group",
+        "Children": null,
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": null,
+          "roleAssignments": null
+        }
+      }
+    }
+  }
+}
