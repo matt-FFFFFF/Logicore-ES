@@ -1,0 +1,31 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": null,
+        "Location": null,
+        "Name": "f019a7a66754450eb3744f37",
+        "ResourceId": "/subscriptions/be3ae466-f78a-4e60-b972-d9c35a4e7b3b/providers/Microsoft.Authorization/policyAssignments/f019a7a66754450eb3744f37",
+        "ResourceName": "f019a7a66754450eb3744f37",
+        "ResourceGroupName": null,
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "SubscriptionId": "be3ae466-f78a-4e60-b972-d9c35a4e7b3b",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        },
+        "PolicyAssignmentId": "/subscriptions/be3ae466-f78a-4e60-b972-d9c35a4e7b3b/providers/Microsoft.Authorization/policyAssignments/f019a7a66754450eb3744f37",
+        "Properties": {
+          "Scope": "/subscriptions/be3ae466-f78a-4e60-b972-d9c35a4e7b3b",
+          "NotScopes": [],
+          "DisplayName": "Azure Backup should be enabled for Virtual Machines",
+          "Description": null,
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/013e242c-8828-4970-87b3-ab247555486d",
+          "Parameters": {}
+        }
+      }
+    }
+  }
+}

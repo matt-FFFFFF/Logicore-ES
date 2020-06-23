@@ -60,6 +60,13 @@
             ]
           },
           {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/f13dcac5-df76-4efd-a8f3-a0efd5e1e5e2",
+            "Name": "f13dcac5-df76-4efd-a8f3-a0efd5e1e5e2",
+            "DisplayName": "UnhappyPath",
+            "Children": null
+          },
+          {
             "Type": "/subscriptions",
             "Id": "/subscriptions/91b2da15-3df0-4671-91e0-f49fbfb802da",
             "Name": "91b2da15-3df0-4671-91e0-f49fbfb802da",
