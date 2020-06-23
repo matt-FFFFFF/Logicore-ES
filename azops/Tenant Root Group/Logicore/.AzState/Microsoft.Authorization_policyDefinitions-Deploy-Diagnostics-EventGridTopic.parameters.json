@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Diagnostics-EventGridTopic",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-EventGridTopic",
+        "ResourceName": "Deploy-Diagnostics-EventGridTopic",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-EventGridTopic",
         "Properties": {
           "Description": "Apply diagnostic settings for Event Grid Topics - Log Analytics",
           "DisplayName": "Deploy-Diagnostics-EventGridTopic",

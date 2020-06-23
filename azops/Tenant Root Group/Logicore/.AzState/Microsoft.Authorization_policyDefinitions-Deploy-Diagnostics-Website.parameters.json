@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Diagnostics-Website",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-Website",
+        "ResourceName": "Deploy-Diagnostics-Website",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-Website",
         "Properties": {
           "Description": "Apply diagnostic settings for Azure Web Sites",
           "DisplayName": "Deploy-Diagnostics-Website",

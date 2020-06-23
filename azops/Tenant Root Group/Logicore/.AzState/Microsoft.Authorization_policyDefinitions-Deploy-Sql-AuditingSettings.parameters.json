@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Sql-AuditingSettings",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Sql-AuditingSettings",
+        "ResourceName": "Deploy-Sql-AuditingSettings",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Sql-AuditingSettings",
         "Properties": {
           "Description": "Configures SQL Server",
           "DisplayName": "Deploy-Sql-AuditingSettings",

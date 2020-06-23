@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Diagnostics-CognitiveServices",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-CognitiveServices",
+        "ResourceName": "Deploy-Diagnostics-CognitiveServices",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-CognitiveServices",
         "Properties": {
           "Description": "Apply diagnostic settings for Cognitive Services - Log Analytics",
           "DisplayName": "Deploy-Diagnostics-CognitiveServices",

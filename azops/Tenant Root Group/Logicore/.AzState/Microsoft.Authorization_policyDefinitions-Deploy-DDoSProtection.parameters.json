@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-DDoSProtection",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-DDoSProtection",
+        "ResourceName": "Deploy-DDoSProtection",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-DDoSProtection",
         "Properties": {
           "Description": "This policy deploys an Azure DDoS Protection Standard plan",
           "DisplayName": "Deploy-DDoSProtection",

@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deny-PublicEndpoint-KeyVault",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-KeyVault",
+        "ResourceName": "Deny-PublicEndpoint-KeyVault",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-KeyVault",
         "Properties": {
           "Description": "This policy restrict creation of Key Vaults with IP Firewall exposed to all public endpoints",
           "DisplayName": "Deny-PublicEndpoint-KeyVault",

@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Diagnostics-MySQL",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-MySQL",
+        "ResourceName": "Deploy-Diagnostics-MySQL",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-MySQL",
         "Properties": {
           "Description": "Apply diagnostic settings for MySQL Databases - Log Analytics",
           "DisplayName": "Deploy-Diagnostics-MySQL",

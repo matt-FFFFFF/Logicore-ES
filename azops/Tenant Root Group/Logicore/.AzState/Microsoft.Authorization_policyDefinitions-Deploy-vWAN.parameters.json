@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-vWAN",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-vWAN",
+        "ResourceName": "Deploy-vWAN",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-vWAN",
         "Properties": {
           "Description": null,
           "DisplayName": "Deploy-vWAN",

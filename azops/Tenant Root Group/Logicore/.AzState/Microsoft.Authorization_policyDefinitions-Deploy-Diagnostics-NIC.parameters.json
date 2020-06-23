@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Diagnostics-NIC",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-NIC",
+        "ResourceName": "Deploy-Diagnostics-NIC",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-NIC",
         "Properties": {
           "Description": "Apply diagnostic settings for Network Interfaces - Log Analytics",
           "DisplayName": "Deploy-Diagnostics-NIC",

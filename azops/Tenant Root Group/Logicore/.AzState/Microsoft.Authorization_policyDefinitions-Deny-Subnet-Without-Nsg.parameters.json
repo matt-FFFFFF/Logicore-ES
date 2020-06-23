@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deny-Subnet-Without-Nsg",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deny-Subnet-Without-Nsg",
+        "ResourceName": "Deny-Subnet-Without-Nsg",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deny-Subnet-Without-Nsg",
         "Properties": {
           "Description": null,
           "DisplayName": "Deny-Subnets-Without-NSG",

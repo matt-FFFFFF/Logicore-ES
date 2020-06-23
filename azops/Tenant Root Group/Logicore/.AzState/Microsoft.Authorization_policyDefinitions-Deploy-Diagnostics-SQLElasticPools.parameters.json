@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Diagnostics-SQLElasticPools",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-SQLElasticPools",
+        "ResourceName": "Deploy-Diagnostics-SQLElasticPools",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-SQLElasticPools",
         "Properties": {
           "Description": "Apply diagnostic settings for SQL Elastic Pools - Log Analytics",
           "DisplayName": "Deploy-Diagnostics-SQLElasticPools",

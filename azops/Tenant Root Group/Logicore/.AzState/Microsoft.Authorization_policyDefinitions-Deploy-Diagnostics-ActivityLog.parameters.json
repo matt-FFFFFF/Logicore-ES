@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Diagnostics-ActivityLog",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-ActivityLog",
+        "ResourceName": "Deploy-Diagnostics-ActivityLog",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-ActivityLog",
         "Properties": {
           "Description": "Ensures that Activity Log Diagnostics settings are set to push logs into Log Analytics",
           "DisplayName": "Deploy-Diagnostics-ActivityLog",

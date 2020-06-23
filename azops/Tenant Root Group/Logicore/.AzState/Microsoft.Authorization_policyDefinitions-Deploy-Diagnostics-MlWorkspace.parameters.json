@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Diagnostics-MlWorkspace",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-MlWorkspace",
+        "ResourceName": "Deploy-Diagnostics-MlWorkspace",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-MlWorkspace",
         "Properties": {
           "Description": "Apply diagnostic settings for Ml Workspace - Log Analytics",
           "DisplayName": "Deploy-Diagnostics-MlWorkspace",

@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Diagnostics-ExpressRoute",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-ExpressRoute",
+        "ResourceName": "Deploy-Diagnostics-ExpressRoute",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-ExpressRoute",
         "Properties": {
           "Description": "Apply diagnostic settings for Express Routes Circuits - Log Analytics",
           "DisplayName": "Deploy-Diagnostics-ExpressRoute",

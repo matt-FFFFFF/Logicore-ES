@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deny-PublicEndpoint-MySQL",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-MySQL",
+        "ResourceName": "Deny-PublicEndpoint-MySQL",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-MySQL",
         "Properties": {
           "Description": "This policy restrict creation of MySql DB accounts with exposed public endpoints",
           "DisplayName": "Deny-PublicEndpoint-MySQL",

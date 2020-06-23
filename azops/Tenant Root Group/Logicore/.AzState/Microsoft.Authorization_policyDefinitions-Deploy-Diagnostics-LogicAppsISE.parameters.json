@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Diagnostics-LogicAppsISE",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-LogicAppsISE",
+        "ResourceName": "Deploy-Diagnostics-LogicAppsISE",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-LogicAppsISE",
         "Properties": {
           "Description": "Apply diagnostic settings for Logic Apps Integration Accounts - Log Analytics",
           "DisplayName": "Deploy-Diagnostics-LogicAppsISE",

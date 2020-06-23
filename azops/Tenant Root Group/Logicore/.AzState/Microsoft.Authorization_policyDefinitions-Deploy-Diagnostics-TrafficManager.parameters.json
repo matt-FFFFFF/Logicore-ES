@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deploy-Diagnostics-TrafficManager",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-TrafficManager",
+        "ResourceName": "Deploy-Diagnostics-TrafficManager",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-TrafficManager",
         "Properties": {
           "Description": "Apply diagnostic settings for Azure Traffic Manager - Log Analytics",
           "DisplayName": "Deploy-Diagnostics-TrafficManager",

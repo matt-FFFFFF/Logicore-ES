@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deny-PublicEndpoint-PostgreSql",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-PostgreSql",
+        "ResourceName": "Deny-PublicEndpoint-PostgreSql",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-PostgreSql",
         "Properties": {
           "Description": "This policy restrict creation of Postgre SQL DB accounts with exposed public endpoints",
           "DisplayName": "Deny-PublicEndpoint-PostgreSql",

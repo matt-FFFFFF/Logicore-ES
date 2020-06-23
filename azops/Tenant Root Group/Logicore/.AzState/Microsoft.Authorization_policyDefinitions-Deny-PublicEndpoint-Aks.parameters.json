@@ -5,8 +5,11 @@
     "input": {
       "value": {
         "Name": "Deny-PublicEndpoint-Aks",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-Aks",
+        "ResourceName": "Deny-PublicEndpoint-Aks",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deny-PublicEndpoint-Aks",
         "Properties": {
           "Description": "This policy restricts creation of non-private AKS clusters",
           "DisplayName": "Deny-PublicEndpoint-Aks",
