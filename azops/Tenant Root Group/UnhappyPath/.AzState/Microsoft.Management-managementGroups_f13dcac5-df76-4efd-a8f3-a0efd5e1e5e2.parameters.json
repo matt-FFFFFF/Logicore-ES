@@ -28,7 +28,7 @@
                 "NotScopes": null,
                 "DisplayName": "Require-Tag-And-Value",
                 "Description": null,
-                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/f13dcac5-df76-4efd-a8f3-a0efd5e1e5e2/providers/Microsoft.Authorization/policyDefinitions/1e30110a-5ceb-460c-a204-c1c3969c6d62",
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
                 "Parameters": {
                   "tagName": {
                     "value": "mytag"
