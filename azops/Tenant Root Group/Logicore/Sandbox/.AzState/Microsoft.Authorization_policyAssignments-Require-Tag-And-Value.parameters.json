@@ -1,0 +1,38 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": null,
+        "Location": "northeurope",
+        "Name": "Require-Tag-And-Value",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/383a1952-f695-4382-bbfb-d18d73bbd649/providers/Microsoft.Authorization/policyAssignments/Require-Tag-And-Value",
+        "ResourceName": "Require-Tag-And-Value",
+        "ResourceGroupName": null,
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "SubscriptionId": null,
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        },
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/383a1952-f695-4382-bbfb-d18d73bbd649/providers/Microsoft.Authorization/policyAssignments/Require-Tag-And-Value",
+        "Properties": {
+          "Scope": "/providers/Microsoft.Management/managementGroups/383a1952-f695-4382-bbfb-d18d73bbd649",
+          "NotScopes": null,
+          "DisplayName": "Require-Tag-And-Value",
+          "Description": null,
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a0e14a6-b0a6-4fab-991a-187a4f81c498",
+          "Parameters": {
+            "tagName": {
+              "value": "mytag"
+            },
+            "tagValue": {
+              "value": "mytagvalue"
+            }
+          }
+        }
+      }
+    }
+  }
+}
