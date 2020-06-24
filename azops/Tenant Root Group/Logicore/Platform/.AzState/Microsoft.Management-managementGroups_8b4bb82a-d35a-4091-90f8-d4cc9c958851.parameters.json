@@ -28,14 +28,23 @@
           "policySetDefinitions": [],
           "policyAssignments": [
             {
+              "Identity": {
+                "type": "SystemAssigned",
+                "principalId": "76b07eee-5bf6-45b2-b725-e700898c36a1",
+                "tenantId": "bb4c9e42-b982-4573-8741-cb71d8b92af4"
+              },
               "Location": "northeurope",
               "Name": "Deploy-Log-Analytics",
+              "ResourceId": "/providers/Microsoft.Management/managementGroups/8b4bb82a-d35a-4091-90f8-d4cc9c958851/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
+              "ResourceName": "Deploy-Log-Analytics",
               "ResourceGroupName": null,
               "ResourceType": "Microsoft.Authorization/policyAssignments",
-              "SubscriptionId": "feab2d15-66b4-438b-accf-51f889b30ec3",
-              "Identity": {
-                "type": "SystemAssigned"
+              "SubscriptionId": null,
+              "Sku": {
+                "name": "A0",
+                "tier": "Free"
               },
+              "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/8b4bb82a-d35a-4091-90f8-d4cc9c958851/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
               "Properties": {
                 "Scope": "/providers/Microsoft.Management/managementGroups/8b4bb82a-d35a-4091-90f8-d4cc9c958851",
                 "NotScopes": [],
