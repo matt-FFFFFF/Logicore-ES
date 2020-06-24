@@ -37,11 +37,11 @@
                 "type": "SystemAssigned"
               },
               "Properties": {
-                "Scope": "<replace-me>",
+                "Scope": "/providers/Microsoft.Management/managementGroups/8b4bb82a-d35a-4091-90f8-d4cc9c958851",
                 "NotScopes": [],
                 "DisplayName": "Deploy-LogAnalytics",
                 "Description": null,
-                "PolicyDefinitionId": "<replace-me>",
+                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/d52a5cb0-5817-4f49-81c0-b1c8f72a80af/providers/Microsoft.Authorization/policyDefinitions/Deploy-Log-Analytics",
                 "Parameters": {
                   "workspaceName": {
                     "value": "alsdsalkd-weu-la"
