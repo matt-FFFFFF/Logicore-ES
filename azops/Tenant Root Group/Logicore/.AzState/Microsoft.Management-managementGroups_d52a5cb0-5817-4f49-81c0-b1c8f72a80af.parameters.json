@@ -50,6 +50,13 @@
             "Name": "939aca42-60ea-473f-9e64-1f00278ca6e8",
             "DisplayName": "Decommissioned",
             "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/31963765-e9cb-452e-9c2e-24b554f136e2",
+            "Name": "31963765-e9cb-452e-9c2e-24b554f136e2",
+            "DisplayName": "LaunchingZones",
+            "Children": null
           }
         ],
         "properties": {
