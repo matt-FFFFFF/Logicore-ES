@@ -18,7 +18,28 @@
         "properties": {
           "policyDefinitions": [],
           "policySetDefinitions": [],
-          "policyAssignments": [],
+          "policyAssignments": [
+            {
+              "Name": "Require-Tag-And-Value",
+              "ResourceGroupName": null,
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Properties": {
+                "Scope": "/providers/Microsoft.Management/managementGroups/383a1952-f695-4382-bbfb-d18d73bbd649",
+                "NotScopes": null,
+                "DisplayName": "Require-Tag-And-Value",
+                "Description": null,
+                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/383a1952-f695-4382-bbfb-d18d73bbd649/providers/Microsoft.Authorization/policyDefinitions/1e30110a-5ceb-460c-a204-c1c3969c6d62",
+                "Parameters": {
+                  "tagName": {
+                    "value": "mytag"
+                  },
+                  "tagValue": {
+                    "value": "mytagvalue"
+                  }
+                }
+              }
+            }
+          ],
           "roleDefinitions": null,
           "roleAssignments": null
         }
